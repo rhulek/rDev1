@@ -38,7 +38,7 @@ summaryStatistics <- function(records=NULL, centralValueType="median", whiskerVa
                 whiskerBottomValue=13.3,
                 whiskerType="5/95");
   
-  results<-c(result1,result2,result3);
+  results<-list(result1,result2,result3);
   
   return(results);
   
