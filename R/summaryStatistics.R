@@ -9,7 +9,7 @@ summaryStatistics <- function(records=NULL, centralValueType="median", whiskerVa
   
   recors<-c(record1,record2,record3,record4,record4)
   
-  result1<-list(label="site1",
+  result1<-list(label="nejaka rapidni zmena",
                n=23,
                nUnderLOQ=NULL,
                unit="ng/m3",
